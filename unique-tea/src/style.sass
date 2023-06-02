@@ -1,0 +1,148 @@
+$color-white: #f7f1e3
+$color-primary: #ccae62
+$color-grey: #84817a
+$color-black: #303952
+*
+	// border: 1px solid #aaa
+	font-family: 微軟正黑體
+	position: relative
+	// debug
+	// header
+	// 	display: none
+	// section
+	// 	display: none
+	// section#section_future
+	// 	display: block
+body
+	margin: 0
+	padding: 0
+	height: 1000px
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+	font-weight: bold
+
+nav.navbar
+	transition: 0.5s
+	a
+		color: $color-white
+		transition: 0.5s
+		&:hover
+			color: $color-primary
+nav.navbar.fixed-top.navbar-expand.navbar-light.navbar-top
+	background-color: transparent
+header.jumbotron
+	text-align: center
+	background: url('https://images.unsplash.com/photo-1531970227416-f0cddeb1f748?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')
+	background-size: cover
+	background-attachment: fixed
+	background-position: center center
+	color: $color-white
+	margin-bottom: 0
+	.container
+		padding: 130px 0px
+		hr
+			max-width: 50px
+			border-bottom: 5px solid $color-primary
+		h1,h4
+			margin: 0
+		h4
+			color: rgba(white,0.5)
+			font-weight: normal
+section
+	margin-bottom: 10px
+section#section_ask
+	background: $color-primary
+	.container
+		padding: 70px 0px
+	.col-sm-5
+		background-image: url(https://bpic.51yuansu.com/pic3/cover/03/98/67/5ea82c44cfd89_610.jpg)
+		background-repeat: no-repeat
+		width: 100%
+		height: 350px
+		mix-blend-mode: multiply
+	.col-sm-7
+		text-align: center
+		h2
+			padding: 130px 0px
+section#section_about
+	.col-md-12
+		padding-top: 60px
+		padding-bottom: 20px
+	.col-md-4
+		text-align: center
+		p
+			color: $color-grey
+		img
+			width: 160%
+		.img-wrap
+			height: 220px
+			overflow: hidden
+section#section_story
+	padding: 0
+	background-color: #ff793f
+	color: $color-white
+	h2
+		padding-top: 20px
+	.col-sm-5
+		background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Map_of_NantouCounty_blank.svg/800px-Map_of_NantouCounty_blank.svg.png')
+		background-size: 100% auto
+		background-repeat: no-repeat
+		height: 400px
+		.cross
+			color: #b33939
+			font-size: 20px
+			display: inline-block
+			position: absolute
+			top: 60%
+			left: 20%	
+	.col-sm-7
+		text-align: center
+		.col-sm-4
+				i
+					font-size:40px
+					padding-bottom: 10px
+				h4
+					font-size: 20px
+		.col-sm-12.features
+			margin-top: 40px
+			margin-bottom: 40px
+section#section_future
+	margin-bottom: 20px
+	.col-sm-6
+		position: relative
+		img
+			width: 100%
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%,-50%)
+			
+			
+	.feature
+		margin-top: 20px
+		margin-bottom: 10px
+		p
+			color:$color-grey
+		i
+			font-size: 30px 
+footer.jumbotron
+	text-align: center
+	color: $color-white
+	background: url('https://images.unsplash.com/photo-1531970227416-f0cddeb1f748?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')
+	background-size: cover
+	background-attachment: fixed
+	background-position: center center
+	margin-bottom: 0
+
+	.container
+		padding: 80px 0px
+		input
+			background: transparent
+			text-align: center
+			margin-left: auto
+			margin-right: auto
+			width: 450px
+			color: $color-white
+		
+		hr
+			max-width: 50px
+			border-bottom: 5px solid $color-primary
